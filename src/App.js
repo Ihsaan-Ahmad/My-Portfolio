@@ -1,12 +1,19 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Main from "./sections/Main";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Portfolio from "./sections/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <h1>My React App</h1>
-      <h2>Author: Ihsaan Ahmad</h2>
-      <p>I like to build things!</p>
+      <Navbar />
+      <Main />
+      <About />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

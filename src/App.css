@@ -1,3 +1,49 @@
-body {
-  background: orange;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.navbar > .active {
+  border-bottom: 1px solid white;
+}
+
+.main-section {
+  height: 100vh;
+  background-color: lightskyblue;
+}
+
+.main-section h1,
+h2 {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Gelasio", serif;
+}
+
+.about-section {
+  height: 100vh;
+  background-color: lightsalmon;
+}
+
+.portfolio-section {
+  height: 100vh;
+  background: lightcoral;
+}
+
+.contact-section {
+  height: 100vh;
+  background-color: lightpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: lightgoldenrodyellow;
+}
+
+/* selected link */
+a:active {
+  color: lightgreen;
 }
