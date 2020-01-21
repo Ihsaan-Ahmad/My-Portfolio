@@ -6,8 +6,13 @@ class Main extends Component {
     return (
       <div className="main-section" id="main">
         <br></br>
-        <h1>Hello!</h1>
-        <h2>I'm Ihsaan</h2>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <h1>Hi! I'm Ihsaan</h1>
+        <h2>React | JavaScript | Mern Applications | Coding</h2>
       </div>
     );
   }
