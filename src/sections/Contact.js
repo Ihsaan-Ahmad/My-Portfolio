@@ -8,9 +8,13 @@ class Contact extends Component {
       <div className="contact-section" id="contact">
         <Container>
           <footer>
-            <i class="fab fa-linkedin fa-lg"></i>
+            <a href="https://www.linkedin.com/in/ihsaan-ahmad/">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
             <span></span>
-            <i class="fab fa-github fa-lg"></i>
+            <a href="https://github.com/ihsaan-Ahmad/">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
           </footer>
         </Container>
       </div>

@@ -75,10 +75,9 @@ html {
 footer {
   clear: both;
   font-size: 20px;
-  color: #ffffff;
-  color: rgb(15, 63, 39);
-  background-color: whitesmoke;
-  border-top: 4px solid rgb(75, 56, 48);
+  color: black;
+  background-image: url("./components/images/concrete_seamless.png");
+  border-top: 4px solid black;
   margin-top: 115px;
   text-align: center;
   padding: 10px;
@@ -95,17 +94,17 @@ a:hover {
   color: gray !important;
 }
 
-i:hover {
-  color: gray !important;
-}
-
 /* selected link */
 a:active {
   color: black !important;
 }
 
-i:active {
-  color: black !important;
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 @media only screen and (max-width: 426px) {
