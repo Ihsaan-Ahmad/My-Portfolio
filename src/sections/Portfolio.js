@@ -45,9 +45,9 @@ class Portfolio extends Component {
               </Card.Body>
             </Card>
             <span></span>
-          </Row>
-          <br></br>
-          <Row>
+
+            <br></br>
+
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Psychic Game</Card.Title>
@@ -87,6 +87,7 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
+            <span></span>
           </Row>
         </Container>
       </div>

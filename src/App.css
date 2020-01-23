@@ -49,7 +49,7 @@ html {
 .about-section h1 {
   margin: 0;
   font-family: "Gelasio", serif;
-  padding-top: 55px;
+  padding-top: 100px;
   padding-bottom: 0;
   font-weight: bold;
   font-size: 70px;
@@ -63,7 +63,7 @@ html {
 }
 
 .portfolio-section {
-  height: 100vh;
+  height: 200vh;
   background-image: url("./components/images/concrete_seamless.png");
 }
 
@@ -74,7 +74,7 @@ html {
 .portfolio-section h1 {
   margin: 0;
   font-family: "Gelasio", serif;
-  padding-top: 55px;
+  padding-top: 100px;
   padding-bottom: 0;
   font-weight: bold;
   font-size: 70px;
@@ -114,7 +114,7 @@ html {
 .contact-section h1 {
   margin: 0;
   font-family: "Gelasio", serif;
-  padding-top: 55px;
+  padding-top: 100px;
   padding-bottom: 0;
   font-weight: bold;
   font-size: 70px;
@@ -188,17 +188,53 @@ a:visited {
   }
 
   .main-section h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
   }
 
   .main-section h2 {
+    font-size: 20px;
+  }
+
+  .about-section h1 {
     font-size: 30px;
+  }
+
+  .about-section p {
+    font-size: 15px;
+  }
+
+  .portfolio-section {
+    height: 250vh;
+  }
+
+  .portfolio-section h1 {
+    font-size: 30px;
+  }
+
+  .portfolio-section div.card {
+    font-size: 15px;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    text-align: center;
+  }
+
+  .contact-section h1 {
+    font-size: 30px;
+  }
+
+  .contact-section li,
+  p {
+    font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .navbar {
     font-size: 20px;
+  }
+
+  .portfolio-section div.card {
+    margin-top: 2em;
   }
 }

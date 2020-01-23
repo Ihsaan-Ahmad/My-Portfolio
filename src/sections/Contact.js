@@ -13,16 +13,10 @@ class Contact extends Component {
           <Row>
             <Col-1>
               <ul>
-                <li>Email:</li>
-                <li>Phone Number:</li>
+                <li>Email: ihsaan.edu4321@gmail.com</li>
+                <li>Phone Number: 4694631780</li>
               </ul>
             </Col-1>
-            <Col-2>
-              <ul>
-                <p>ihsaan.edu4321@gmail.com</p>
-                <p>4694631780</p>
-              </ul>
-            </Col-2>
           </Row>
           <footer>
             <a href="https://www.linkedin.com/in/ihsaan-ahmad/">
