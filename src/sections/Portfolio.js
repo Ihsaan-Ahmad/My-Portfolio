@@ -21,7 +21,6 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <span></span>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Pocketbook</Card.Title>
@@ -34,7 +33,6 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <span></span>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Clicky Game</Card.Title>
@@ -44,10 +42,6 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <span></span>
-
-            <br></br>
-
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Psychic Game</Card.Title>
@@ -61,7 +55,6 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <span></span>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>CrystalsCollector Game </Card.Title>
@@ -74,7 +67,6 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <span></span>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>GifTastic</Card.Title>
@@ -87,7 +79,6 @@ class Portfolio extends Component {
                 </a>
               </Card.Body>
             </Card>
-            <span></span>
           </Row>
         </Container>
       </div>

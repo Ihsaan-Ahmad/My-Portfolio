@@ -236,5 +236,7 @@ a:visited {
 
   .portfolio-section div.card {
     margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
   }
 }
