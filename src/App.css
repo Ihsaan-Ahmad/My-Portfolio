@@ -32,6 +32,8 @@ html {
   font-size: 100px;
   text-align: center;
   font-family: "Gelasio", serif;
+  border-bottom: solid;
+  border-color: black;
 }
 
 .main-section h2 {
@@ -47,9 +49,10 @@ html {
 .about-section h1 {
   margin: 0;
   font-family: "Gelasio", serif;
-  line-height: 10vh;
   font-weight: bold;
   font-size: 70px;
+  border-bottom: solid;
+  border-color: black;
 }
 
 .about-section p {
@@ -66,6 +69,17 @@ html {
   top: 100px;
 }
 
+.portfolio-section h1 {
+  margin: 0;
+  font-family: "Gelasio", serif;
+  padding-top: 55px;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 70px;
+  border-bottom: solid;
+  border-color: black;
+}
+
 .portfolio-section span {
   padding-right: 3em;
 }
@@ -74,6 +88,14 @@ html {
   background-color: black;
   color: white;
   border-radius: 30px;
+  font-family: "Gelasio", serif;
+}
+
+.portfolio-section div.card-title {
+  color: rgb(66, 166, 228);
+  font-weight: bold;
+  border-bottom: solid;
+  border-color: rgb(66, 166, 228);
 }
 
 .portfolio-section button {
@@ -130,6 +152,11 @@ a:visited {
 .portfolio-section button:hover {
   background-color: grey;
   border-color: grey;
+}
+
+.portfolio-section button:active {
+  background-color: black !important;
+  border-color: black !important;
 }
 
 @media only screen and (max-width: 426px) {
