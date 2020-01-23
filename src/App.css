@@ -49,6 +49,8 @@ html {
 .about-section h1 {
   margin: 0;
   font-family: "Gelasio", serif;
+  padding-top: 55px;
+  padding-bottom: 0;
   font-weight: bold;
   font-size: 70px;
   border-bottom: solid;
@@ -107,6 +109,27 @@ html {
 .contact-section {
   height: 100vh;
   background-image: url("./components/images/concrete_seamless.png");
+}
+
+.contact-section h1 {
+  margin: 0;
+  font-family: "Gelasio", serif;
+  padding-top: 55px;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 70px;
+  border-bottom: solid;
+  border-color: black;
+}
+
+.contact-section ul {
+  font-family: "Gelasio", serif;
+  line-height: 20vh;
+  font-size: 30px;
+}
+
+.contact-section p {
+  text-align: end;
 }
 
 .contact-section span {

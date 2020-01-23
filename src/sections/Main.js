@@ -18,7 +18,7 @@ class Main extends Component {
           <br></br>
           <h1>Hi! I'm Ihsaan</h1>
           <br></br>
-          <h2>React | JavaScript | Mern Applications | Coding</h2>
+          <h2>React | JavaScript | Mern STACK | Coding</h2>
         </Container>
       </div>
     );
